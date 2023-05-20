@@ -1,5 +1,4 @@
-
-
+from dpnds.libraries import *
 
 def extract_pictures(name_of_file): 
     doc_for_ex = f'./docx_files/{name_of_file}' 

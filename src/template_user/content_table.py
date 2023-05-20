@@ -1,4 +1,4 @@
-
+from dpnds.libraries import *
 
 def create_lists(input_doc, output_doc): 
     for paragraph in input_doc.paragraphs: 

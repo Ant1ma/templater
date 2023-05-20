@@ -1,5 +1,4 @@
-
-
+from dpnds.libraries import *
 
 def create_content(input_doc, output_doc, name_docx):
     doci = output_doc 
@@ -49,4 +48,4 @@ def create_content(input_doc, output_doc, name_docx):
             else: 
                 output_run.font.size = Pt(14) 
                 output_para.paragraph_format.alignment = para.paragraph_format.alignment
-    doci.save(f'test_result.docx') 
+
