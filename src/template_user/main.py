@@ -1,3 +1,7 @@
+import os
+
+os.system('pip install python-docx')
+
 from dpnds.dependes import *
 from dpnds.libraries import *
 
